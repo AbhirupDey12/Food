@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto+Condensed:wght@700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Roboto+Slab:wght@400;800&family=Roboto:ital,wght@1,700&family=Ubuntu:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    color: white;
+    display: flex;
+    height: 12vh;
+    background-color: lightseagreen;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3rem;
+}
+
+img {
+    width: 17vw;
+    height: 17vh;
+    margin: auto 67px;
+}
+
+.part-1 {
+    height: 188px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(20px);
+}
+
+.items-1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#first {
+    border: 13px solid lightseagreen;
+}
+
+#second {
+    border: 13px dashed lightseagreen;
+}
+
+#third {
+    border: 13px dotted lightseagreen;
+}
+
+.items-2 {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    margin: 64px auto;
+}
+
+#fourth {
+    border: 13px ridge lightseagreen;
+}
+
+#fifth {
+    border: 13px ridge lightseagreen;
+}
+
+.items-3 {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    margin: 64px auto;
+}
+
+#sixth {
+    border: 12px double lightseagreen;
+}
+
+#seventh {
+    height: 20vh;
+    transform: translateX(10px);
+}
+
+.part-3 {
+    margin-bottom: 24px;
+}
+
+.element {
+    color: white;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    background-color: lightseagreen;
+    border-top: 8px solid red;
+    border-right: 8px solid skyblue;
+    border-bottom: 8px solid blue;
+    border-left: 8px solid rgba(255, 0, 0, 0.388);
+    padding: 17px;
+}
+
+h1 {
+    margin: 21px;
+}
+
+.hello {
+    margin-bottom: 35px;
+}
+
+.foot {
+    background-color: lightseagreen;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+}
+
+.things {
+    width: 57%;
+    margin: auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    font-family: 'Roboto Slab', serif;
+  }
+
+.list {
+    padding: auto 12px;
+}
+
+.list:hover {
+    color: blue;
+    text-decoration: underline blue;
+    cursor: pointer;
+}
